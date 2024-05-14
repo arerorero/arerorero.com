@@ -1,4 +1,4 @@
-export default function arerorero() {
+export default function intro() {
   setTimeout(() => {
     document.querySelector("#welcome").classList = "show";
   }, 1000);
@@ -9,6 +9,10 @@ export default function arerorero() {
     document.querySelector("#arerorero").classList = "arerorero";
   }, 3000);
   setTimeout(() => {
-    document.querySelector(".exit").click();
-  }, 7000);
+    try {
+      document.querySelector(".info").classList = "show-info";
+    } catch (error) {
+      console.log("fast af boi");
+    }
+  }, 6500);
 }
