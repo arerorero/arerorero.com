@@ -1,5 +1,4 @@
 <template>
-  <div></div>
   <router-view />
 </template>
 
@@ -17,20 +16,5 @@
 }
 body {
   background: #11061d;
-}
-
-nav {
-  background: #0b0413;
-  padding: 30px;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-  text-decoration: none;
-}
-
-nav a.router-link-exact-active {
-  color: #aaf;
 }
 </style>
