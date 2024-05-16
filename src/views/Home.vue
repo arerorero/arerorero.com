@@ -1,5 +1,5 @@
 <template>
-  <!-- <Intro @animation-complete="handleIntroComplete" /> -->
+  <Intro @animation-complete="handleIntroComplete" />
   <Portifolio v-if="introComplete" />
 </template>
 
@@ -13,7 +13,7 @@ export default {
     Portifolio,
   },
   setup() {
-    const introComplete = ref(true); // change to false when using intro
+    const introComplete = ref(false); // change to false when using intro
     return { introComplete };
   },
   methods: {
